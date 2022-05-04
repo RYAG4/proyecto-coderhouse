@@ -133,6 +133,29 @@ main {
     grid-area: main;
 }
 
+/*transformacion*/
+.transformacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.transform{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    height: 80px;
+    width: 80px;
+
+    background-color: #822002;
+    transform: rotate(50deg);
+}
+.transicion:hover {
+    transform: scale(1.2);
+}
 
 /*responsive*/
 
