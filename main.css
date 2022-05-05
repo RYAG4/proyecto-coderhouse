@@ -24,6 +24,8 @@ nav {
 
 body {
     font-family: 'Merriweather', serif;
+    background-color: #fab8a0;
+
 }
 
 h3 {
@@ -157,8 +159,30 @@ main {
     transform: scale(1.2);
 }
 
-/*responsive*/
+/*cards*/
+.card-img-top{
+    width: 100%;
 
+}
+
+.card{
+    border: solid .2em #822002;
+
+}
+
+
+
+/*responsive*/
+/*cards*/
+@media screen and (min-width: 760px) {
+
+    .amores{
+        display: flex;
+        flex-direction: row;
+    }
+
+    
+}
 /*fotos*/
 @media screen and (max-width: 480px) {
     .grid {
