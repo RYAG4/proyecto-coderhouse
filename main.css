@@ -107,6 +107,7 @@ footer {
 .foto-costado {
     display: grid;
     grid-template-areas: "texto-costado foto-costado";
+    grid-template-columns: 2fr 2fr;
     align-items: center;
 }
 
