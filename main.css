@@ -159,6 +159,7 @@ main {
     transform: scale(1.2);
 }
 
+
 /*cards*/
 .card-img-top{
     width: 100%;
@@ -167,9 +168,11 @@ main {
 
 .card{
     border: solid .2em #822002;
-
 }
 
+.titulo-h2{
+    color: #822002;
+}
 
 
 /*responsive*/
@@ -274,6 +277,6 @@ main {
         display: inline;
         margin: 0 1em;
     }
-
+    
 }
 
