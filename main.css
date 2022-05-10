@@ -27,6 +27,9 @@ body {
     background-color: #fab8a0;
 
 }
+h2{
+    color: #822002;
+}
 
 h3 {
     color: brown;
@@ -54,6 +57,7 @@ p span {
     flex-wrap: wrap;
 
     justify-content: space-around;
+    width: auto;
 }
 
 /*nav*/
@@ -84,6 +88,11 @@ footer {
     display: grid;
     grid-template-columns: auto auto;
 }
+
+.img {
+    width: 70%;
+}
+
 
 .grid div {
     border: solid .2em #822002;
@@ -218,10 +227,6 @@ main {
 
     .foto-costado {
         grid-area: foto-costado;
-    }
-
-    .img {
-        width: 70%;
     }
 
     .inicio {
