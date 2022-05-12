@@ -25,14 +25,8 @@ span {
   text-align: center;
   height: auto; }
 
-nav {
-  grid-area: nav; }
-
 header {
   grid-area: header; }
-
-footer {
-  grid-area: footer; }
 
 main {
   grid-area: main; }
@@ -46,7 +40,8 @@ nav {
   background-color: #fab8a0;
   border-width: 0.5em;
   border-color: #822002;
-  border-style: solid; }
+  border-style: solid;
+  grid-area: nav; }
 
 .titulo-1 {
   padding: 1em 1.5em;
@@ -82,7 +77,8 @@ nav {
 
 footer {
   color: #822002;
-  text-align: center; }
+  text-align: center;
+  grid-area: footer; }
 
 .fotos {
   background-color: #fab8a0; }
