@@ -1,0 +1,9 @@
+.flex-box {
+    background-color: $color-primary;
+    border: solid .2em $color-secondary;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: auto; 
+}
