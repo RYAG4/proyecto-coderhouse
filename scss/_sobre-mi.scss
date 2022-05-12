@@ -1,0 +1,19 @@
+.card-img-top {
+    width: 100%; 
+}
+  
+.card {
+    border: solid .2em $color-secondary; 
+}
+
+.titulo-h2 {
+    color: $color-secondary; 
+}
+
+@media screen and (min-width: 760px) {
+    .amores {
+      display: flex;
+      flex-direction: row; } 
+}
+
+

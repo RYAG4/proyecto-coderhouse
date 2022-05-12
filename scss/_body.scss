@@ -22,3 +22,39 @@ span {
   color: $color-secondary;
 
 }
+.inicio {
+    background-color: $color-primary;
+    display: grid;
+    grid-template-areas: "header header"
+   "nav nav"
+   "main main"
+   "footer footer";
+    text-align: center;
+    height: auto; 
+}
+
+nav {
+    grid-area: nav; 
+}
+  
+header {
+    grid-area: header; 
+}
+  
+footer {
+    grid-area: footer; 
+}
+  
+main {
+    grid-area: main; 
+}
+
+@media screen and (max-width: 768px) {
+  .inicio {
+    display: grid;
+    grid-template-areas: "nav nav"
+ "header header"
+ "main main"
+ "footer footer";}
+}
+

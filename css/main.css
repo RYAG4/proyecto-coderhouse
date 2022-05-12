@@ -18,23 +18,58 @@ h4 {
 span {
   color: #822002; }
 
+.inicio {
+  background-color: #fab8a0;
+  display: grid;
+  grid-template-areas: "header header" "nav nav" "main main" "footer footer";
+  text-align: center;
+  height: auto; }
+
+nav {
+  grid-area: nav; }
+
+header {
+  grid-area: header; }
+
+footer {
+  grid-area: footer; }
+
+main {
+  grid-area: main; }
+
+@media screen and (max-width: 768px) {
+  .inicio {
+    display: grid;
+    grid-template-areas: "nav nav" "header header" "main main" "footer footer"; } }
+
 nav {
   background-color: #fab8a0;
   border-width: 0.5em;
-  border-color: #822002; }
+  border-color: #822002;
+  border-style: solid; }
 
 .titulo-1 {
   padding: 1em 1.5em;
   background-color: #fab8a0; }
 
-.flex-box {
-  background-color: #fab8a0;
-  border: solid 0.2em #822002;
+.transformacion {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  width: auto; }
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.transform {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 80px;
+  width: 80px;
+  background-color: #822002;
+  transform: rotate(50deg); }
+
+.transicion:hover {
+  transform: scale(1.2); }
 
 .flex-box {
   background-color: #fab8a0;
@@ -45,29 +80,38 @@ nav {
   justify-content: space-around;
   width: auto; }
 
-.flex-box {
-  background-color: #fab8a0;
-  border: solid 0.2em #822002;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  width: auto; }
+footer {
+  color: #822002;
+  text-align: center; }
 
-.flex-box {
-  background-color: #fab8a0;
-  border: solid 0.2em #822002;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  width: auto; }
+.fotos {
+  background-color: #fab8a0; }
 
-.flex-box {
-  background-color: #fab8a0;
-  border: solid 0.2em #822002;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  width: auto; }
+.grid {
+  display: grid;
+  grid-template-columns: auto auto; }
+
+.img {
+  width: 70%; }
+
+.grid div {
+  border: solid 0.2em #822002; }
+
+@media screen and (max-width: 480px) {
+  .grid {
+    display: grid;
+    grid-template-columns: auto; } }
+
+.card-img-top {
+  width: 100%; }
+
+.card {
+  border: solid 0.2em #822002; }
+
+.titulo-h2 {
+  color: #822002; }
+
+@media screen and (min-width: 760px) {
+  .amores {
+    display: flex;
+    flex-direction: row; } }

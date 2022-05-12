@@ -1,0 +1,22 @@
+.fotos {
+    background-color: $color-primary; 
+}
+  
+.grid {
+    display: grid;
+    grid-template-columns: auto auto; 
+}
+  
+.img {
+    width: 70%; 
+}
+  
+.grid div {
+    border: solid .2em $color-secondary; 
+}
+
+@media screen and (max-width: 480px) {
+    .grid {
+      display: grid;
+      grid-template-columns: auto; } 
+}
