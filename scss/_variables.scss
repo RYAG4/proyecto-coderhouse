@@ -1,3 +1,15 @@
 $color-primary : #fab8a0;
 $color-secondary : #822002;
 $font: 'Merriweather', serif;
+  
+//mapa
+$caracoles: (
+    3: #857468,
+    5: #5b5149,
+    6: #36302b,
+);
+@each $var, $color in $caracoles {
+    .var-#{$var} {
+        color: $color;
+    }
+}
