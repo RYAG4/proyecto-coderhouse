@@ -21,3 +21,9 @@ $caracoles: (
     @extend .hola;
     text-align: center;
 }
+
+//mixin
+@mixin bh ($alto, $ancho) {
+    height: $alto;
+    width: $ancho;
+}
