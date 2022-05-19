@@ -13,3 +13,11 @@ $caracoles: (
         color: $color;
     }
 }
+
+//extend
+.hola {
+    color: $color-secondary}
+.hola-distinto {
+    @extend .hola;
+    text-align: center;
+}
