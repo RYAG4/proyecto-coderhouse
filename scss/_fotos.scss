@@ -15,7 +15,8 @@
     border: solid .2em $color-secondary; 
 }
 
-@media screen and (max-width: 480px) {
+//responsive
+@media screen and (max-width: 760px) {
     .grid {
       display: grid;
       grid-template-columns: auto; } 

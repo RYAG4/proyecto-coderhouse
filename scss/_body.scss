@@ -21,6 +21,7 @@ main {
     grid-area: main; 
 }
 
+//responsive
 @media screen and (max-width: 768px) {
   .inicio {
     display: grid;
